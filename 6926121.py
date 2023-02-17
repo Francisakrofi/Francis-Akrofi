@@ -1,5 +1,4 @@
-#Francis Akrofi
-"""
+#https://github.com/Francisakrofi/Francis-Akrofi/issues
 import numpy as np
 L = 12 #length of beam in meters
 w = 10 #intensity of load in KN/m
@@ -7,10 +6,10 @@ w = 10 #intensity of load in KN/m
 #Question a
 #Bending moment(M) and shear force(V) at the first end, x=0
 x = 0
-M = (w*(-6*x**2 + 6*L*x-L**2))/12
-V = w*(L/2 - x)
-m= 'The bending moment at x=0 is '
-n= 'the shear force at x=0 is '
+M=(w*(-6*x**2 + 6*L*x-L**2))/12
+V=w*(L/2 - x)
+m='The bending moment at x=0 is '
+n='the shear force at x=0 is '
 print()
 print('(a.1)' + m + str(M) + ' and ', n + str(V))
 #Bending moment(M) and shear force(V) at the first end, x=L=10
